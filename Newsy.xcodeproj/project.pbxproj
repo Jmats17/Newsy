@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD2AB9CE46375EF333BA140 /* Pods_NewsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B9C78B1FAEF6C305C4A7F8 /* Pods_NewsyUITests.framework */; };
+		2FF885D196AF4484CAA2BE9D /* Pods_Newsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C11578BE45E2F97A0C97B94 /* Pods_Newsy.framework */; };
 		D0F9D84D1EEE204F00B6D354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F9D84C1EEE204F00B6D354 /* AppDelegate.swift */; };
 		D0F9D84F1EEE204F00B6D354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F9D84E1EEE204F00B6D354 /* ViewController.swift */; };
 		D0F9D8521EEE205000B6D354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F9D8501EEE205000B6D354 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D0F9D8571EEE205000B6D354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F9D8551EEE205000B6D354 /* LaunchScreen.storyboard */; };
 		D0F9D8621EEE205000B6D354 /* NewsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F9D8611EEE205000B6D354 /* NewsyTests.swift */; };
 		D0F9D86D1EEE205000B6D354 /* NewsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F9D86C1EEE205000B6D354 /* NewsyUITests.swift */; };
+		D95CF0E27EDFE969FF566CA1 /* Pods_NewsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C21A83758A775ED458F697 /* Pods_NewsyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D42139E71773E64D0A1070 /* Pods-NewsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsyUITests/Pods-NewsyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2ACC387B797C0B5320DB4A59 /* Pods-NewsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsyTests/Pods-NewsyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C11578BE45E2F97A0C97B94 /* Pods_Newsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Newsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B9C78B1FAEF6C305C4A7F8 /* Pods_NewsyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C21A83758A775ED458F697 /* Pods_NewsyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E4F479445B88E02BF93216 /* Pods-NewsyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsyTests/Pods-NewsyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D87D10FAEA4BB9AFA7F1F6B /* Pods-NewsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsyUITests/Pods-NewsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A96196EDDCB01034CEBB09CF /* Pods-Newsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Newsy/Pods-Newsy.release.xcconfig"; sourceTree = "<group>"; };
 		D0F9D8491EEE204F00B6D354 /* Newsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F9D84C1EEE204F00B6D354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F9D84E1EEE204F00B6D354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		D0F9D8681EEE205000B6D354 /* NewsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F9D86C1EEE205000B6D354 /* NewsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsyUITests.swift; sourceTree = "<group>"; };
 		D0F9D86E1EEE205000B6D354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8596FA2CF86B969BB1035F6 /* Pods-Newsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Newsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Newsy/Pods-Newsy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF885D196AF4484CAA2BE9D /* Pods_Newsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95CF0E27EDFE969FF566CA1 /* Pods_NewsyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD2AB9CE46375EF333BA140 /* Pods_NewsyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				D0F9D8601EEE205000B6D354 /* NewsyTests */,
 				D0F9D86B1EEE205000B6D354 /* NewsyUITests */,
 				D0F9D84A1EEE204F00B6D354 /* Products */,
+				EB7A70C5AD44638A4D19EEC8 /* Pods */,
+				F95F7E04CB6525A5838379E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = NewsyUITests;
 			sourceTree = "<group>";
 		};
+		EB7A70C5AD44638A4D19EEC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8596FA2CF86B969BB1035F6 /* Pods-Newsy.debug.xcconfig */,
+				A96196EDDCB01034CEBB09CF /* Pods-Newsy.release.xcconfig */,
+				88E4F479445B88E02BF93216 /* Pods-NewsyTests.debug.xcconfig */,
+				2ACC387B797C0B5320DB4A59 /* Pods-NewsyTests.release.xcconfig */,
+				8D87D10FAEA4BB9AFA7F1F6B /* Pods-NewsyUITests.debug.xcconfig */,
+				06D42139E71773E64D0A1070 /* Pods-NewsyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F95F7E04CB6525A5838379E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C11578BE45E2F97A0C97B94 /* Pods_Newsy.framework */,
+				57C21A83758A775ED458F697 /* Pods_NewsyTests.framework */,
+				54B9C78B1FAEF6C305C4A7F8 /* Pods_NewsyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0F9D8711EEE205000B6D354 /* Build configuration list for PBXNativeTarget "Newsy" */;
 			buildPhases = (
+				792BB397B0D332E0CA4B1538 /* [CP] Check Pods Manifest.lock */,
 				D0F9D8451EEE204F00B6D354 /* Sources */,
 				D0F9D8461EEE204F00B6D354 /* Frameworks */,
 				D0F9D8471EEE204F00B6D354 /* Resources */,
+				80884350538B4FB3D04BA093 /* [CP] Embed Pods Frameworks */,
+				CF3BA8F16EB24871EC9DAAFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0F9D8741EEE205000B6D354 /* Build configuration list for PBXNativeTarget "NewsyTests" */;
 			buildPhases = (
+				38ACA233D1B7768A113E5FCD /* [CP] Check Pods Manifest.lock */,
 				D0F9D8591EEE205000B6D354 /* Sources */,
 				D0F9D85A1EEE205000B6D354 /* Frameworks */,
 				D0F9D85B1EEE205000B6D354 /* Resources */,
+				FF0427C660BA33C71171FB94 /* [CP] Embed Pods Frameworks */,
+				22162FFB1EA2B0F93848139B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0F9D8771EEE205000B6D354 /* Build configuration list for PBXNativeTarget "NewsyUITests" */;
 			buildPhases = (
+				193E8EA4C15816B59FC0D660 /* [CP] Check Pods Manifest.lock */,
 				D0F9D8641EEE205000B6D354 /* Sources */,
 				D0F9D8651EEE205000B6D354 /* Frameworks */,
 				D0F9D8661EEE205000B6D354 /* Resources */,
+				2411FD446D2B3E2E5B9AFE09 /* [CP] Embed Pods Frameworks */,
+				247E1D1C1CC4448ED754A5C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193E8EA4C15816B59FC0D660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22162FFB1EA2B0F93848139B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsyTests/Pods-NewsyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2411FD446D2B3E2E5B9AFE09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsyUITests/Pods-NewsyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		247E1D1C1CC4448ED754A5C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsyUITests/Pods-NewsyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38ACA233D1B7768A113E5FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		792BB397B0D332E0CA4B1538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80884350538B4FB3D04BA093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Newsy/Pods-Newsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3BA8F16EB24871EC9DAAFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Newsy/Pods-Newsy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0427C660BA33C71171FB94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsyTests/Pods-NewsyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0F9D8451EEE204F00B6D354 /* Sources */ = {
@@ -415,6 +602,7 @@
 		};
 		D0F9D8721EEE205000B6D354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8596FA2CF86B969BB1035F6 /* Pods-Newsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
@@ -428,6 +616,7 @@
 		};
 		D0F9D8731EEE205000B6D354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96196EDDCB01034CEBB09CF /* Pods-Newsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
@@ -441,6 +630,7 @@
 		};
 		D0F9D8751EEE205000B6D354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E4F479445B88E02BF93216 /* Pods-NewsyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +646,7 @@
 		};
 		D0F9D8761EEE205000B6D354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACC387B797C0B5320DB4A59 /* Pods-NewsyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +662,7 @@
 		};
 		D0F9D8781EEE205000B6D354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D87D10FAEA4BB9AFA7F1F6B /* Pods-NewsyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
@@ -485,6 +677,7 @@
 		};
 		D0F9D8791EEE205000B6D354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D42139E71773E64D0A1070 /* Pods-NewsyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
